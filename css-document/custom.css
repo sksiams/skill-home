@@ -872,6 +872,254 @@ header{
 
 
 
+/* responsive css start form here */
+	
+
+.rspnsv-bar{
+	width: 10%;
+    float: right;
+    margin-top: 30px;
+    text-align: right;
+	display:none;
+}
+
+.rspnsv-bar:hover{
+	cursor:pointer;
+	text-shadow: 0px 0px 8px #ffffff;
+}
+
+
+.rspnsv-bar i{
+	font-size: 34px;
+    color: #4200a2;
+	
+}
+	
+.rspnsv-menu {
+    width: 35%;
+    float: right;
+    padding: 16px 0px;
+    background: #ecf0f1;
+    border-top: 1px solid #26005d;
+	display:none;
+}	
+	
+.rspnsvsrch-area{
+    margin: auto!important;
+    width: 92%;
+} 
+
+.rspnsvsrch-inpt>input{
+    font-size: 18px;
+    padding: 2px;
+    border: 2px solid #7135d4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.rspnsvsrch-icon>i{ 
+    background: #7135d4;
+    color: #fff;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+.rspnsv-menu ul{
+	margin-top:24px;
+}
+
+.rspnsv-menu ul>li{
+	margin:12px 0px;
+	padding:8px;
+}
+
+.rspnsv-menu ul>li:hover{
+	background:#7033d3;
+	cursor:pointer;
+}
+
+.rspnsv-menu ul>li:hover>a{
+	color:#fff;
+}
+
+
+
+.rspnsv-menu ul>li>a{
+	font-size: 20px;
+    color: #2c3e50;
+}
+
+	
+@media all and (max-width:992px){
+	
+	.menu-area {
+		display:none
+	}
+	
+	.search-area {
+		display:none!important;
+	}
+	
+	.slider{
+		display:none;
+	}
+
+	.rspnsv-bar{
+		display:block;
+	}
+	
+	.walecome{
+		margin-top:20px;
+	}
+	.classes-box {
+		margin-top: 40px;
+	}
+	.class-block{
+		margin-top:100px;
+	}
+	
+	.bascskill-bgpic {
+		height: 350px;
+		width: 350px;
+	}	
+	
+	.bascskill-admisn{
+		padding:24px;
+	}
+	
+	.bascskill-job{
+		padding:24px;
+	}
+	.fclty-right>.std-pic {
+		height: 300px;
+		width: 300px;
+	}
+
+	.fclty-left>h2{font-size:40px;
+					font-weight:100;}	
+	
+	.fclty-left>ul>li>i{
+		font-size:20px;
+	}
+	
+	.fclty-left>ul>li>span{
+		font-size:20px;
+		font-weight:100;
+	}
+
+	.ftr-blck3{
+		margin-top:80px;
+	}
+	
+	.ftr-blck4{
+		margin-top:80px;
+	}	
+}
+
+
+
+@media all and (max-width:768px){
+	
+	.rspnsv-menu{width:100%;}
+
+	.class-area h2{font-size:40px;}
+	.timln-area>h2 {font-size:40px;}
+	.bascskill-area>h2{font-size:40px;}
+	.fclty-left>h2{font-size:28px;
+					font-weight:100;}
+	
+	.timln-right{margin-top:50px;}
+	
+	.bascskill-wrp{
+		margin: 20px 0px ;
+	}
+	
+	.bascskill-bgpic {
+		height: 250px;
+		width: 250px;
+		margin-top: 30px;
+	}
+
+	.bascskill-admisn{
+		padding:12px;
+	}
+	
+	.bascskill-job{
+		padding:12px;
+	}
+		
+	.fclty-right>.std-pic {
+		height: 200px;
+		width: 200px;
+	}
+	
+
+	.fclity-ststc ul>li>i {
+		font-size:20px;
+	}
+	
+	.fclity-ststc ul>li>span{
+		font-size:20px;
+		font-weight:100;
+	}
+
+}
+
+@media all and (max-width:576px){
+	
+	.clsslct-area select{
+		padding: 2px 8px;
+		margin: 10px auto;
+	}
+	
+	.class-block{ 
+		height:230px;
+	}
+
+	.timln-right a{
+		padding:4px 8px;
+
+	}
+	
+	.timln-btn-bx a {
+		padding: 4px 8px;
+		margin: 0px 4px;
+		font-weight:100;
+	}
+	
+	.bascskill-wrp{
+		margin: 20px auto;
+	}
+	
+	.bascskill-bgpic {
+		height: 150px;
+		width: 150px;
+	}	
+	.bascskill-admisn{
+		padding:8px;
+	}
+	
+	.bascskill-job{
+		padding:8px;
+	}
+	
+	.bascskill-admisn h3{
+		font-weight: 100;
+		font-size: 20px;
+	}
+	
+	.bascskill-job h3{
+		font-weight: 100;
+		font-size: 20px;
+	}	
+
+}
+
+/* responsive css end here */
+
 
 	
 
